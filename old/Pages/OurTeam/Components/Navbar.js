@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styles from "./../Style/ourteam.module.css";
 import styles1 from "./../Style/core&exe.module.css";
 import data from "../data.json";
 import Card from "./Card";

@@ -38,3 +38,40 @@
     height: 75vh;
     background-color: coral;
 }
+.cardContainer {
+    text-align: center;
+
+  }
+  
+.card {
+    display: inline-block;
+    width: 270px;
+    height: 450px; 
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 125px;
+    box-shadow: 0px 2px 5px #98473e;
+    transition: 0.7s;
+    
+    
+  }
+
+.card:hover{
+  box-shadow: 8px 8px 10px #98473e;
+  
+
+
+}
+*{
+    background-color: black;
+}
+.Heading{
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: relative;
+    right : 350px;
+    top: 50px;
+}

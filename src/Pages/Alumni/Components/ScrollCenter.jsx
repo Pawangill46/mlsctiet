@@ -39,11 +39,16 @@ function ScrollCenter({ currentYear }) {
       )}
       {currentYear === 2023 && (
         <div >
-          2023
-          <div className={styles.two}></div>
-          <div className={styles.one}></div>
-          <div className={styles.three}></div>
+          <div className={styles.cardContainer}>
+    <h1 className={styles.Heading}>Meet Our Team</h1>
+    <div className={styles.card}>Card 1</div>
+    <div className={styles.card}>Card 2</div>
+    <div className={styles.card}>Card 3</div>
+    
+  </div>
+          
         </div>
+
       )}
     </div>
     </>

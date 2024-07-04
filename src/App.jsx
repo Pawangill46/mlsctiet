@@ -1,7 +1,6 @@
 import Events from "./Pages/Events";
 import Gallery from "./Pages/Gallery";
 import LandingPage from "./Pages/LandingPage";
-import OurTeam from "./Pages/OurTeam";
 import Alumni from "./Pages/Alumni";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -14,12 +13,12 @@ function App() {
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/events" element={<Events />} />
-				<Route path="/gallery" element={<Gallery />} />
-				<Route path="/alumni" element={<Alumni />} />
-        <Route path="/team" element={<OurTeam />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/alumni" element={<Alumni />} />
+    
       </Routes>
     </Router>
   );
 }
 
-export default App;
+export default App; 
